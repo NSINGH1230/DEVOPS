@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+  }
+ 
+  header {
+    background: #486d97;
+    height: 150px;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+
+   .header h1 {
+        font-size: 5px;
+        margin: 0px;
+      }
+      
+      
+  }
+  .header-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    padding: 10px;
+    gap: 5px; 
+  }
+  
+  .header-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-size: 12px;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: left;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+  }
+.
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #dcd5e0;
+  }
+  
+  nav a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #f9f3fa;
+  }
+  
+  .main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .images-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .images-row img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+ div h1{
+    align-items: center;
+ }
+  footer {
+    background-color: #d1c4e9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  form input, form button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #d9d5db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .images-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+   
